@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Boxes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="container-heading">
+        <div class="line"></div>
+        <h1 class="heading-text">YAY! It's BOGO</h1>
+        <div class="line"></div>
+    </header>
+
+    <main class="container">
+        <!-- Box 1 -->
+        <div class="box" id="box1">
+            <label for="unit1">
+                <input type="radio" id="unit1" name="unit" value="1">
+                <div class="label-content">
+                    <span class="unit">1 Unit</span>
+                    <span class="off">10% Off</span>
+                </div>
+                <span class="price">$10.00 USD</span>
+            </label>
+            <div class="price-content">
+                <span>Standard Price</span>
+                <span class="fade-price">$24.00 USD</span>
+            </div>
+            <div class="main-size-colour">
+                <span>Size</span>
+                <span>Colour</span>
+            </div>
+            <div class="size-colour">
+                <span>#1
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                </span>
+                <span>
+                    <select>
+                        <option>Blue</option>
+                        <option>Red</option>
+                    </select>
+                </span>
+            </div>
+            <div class="size-colour">
+                <span>#2
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                </span>
+                <span>
+                    <select>
+                        <option>Blue</option>
+                        <option>Red</option>
+                    </select>
+                </span>
+            </div>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="box" id="box2" style="position: relative;">
+            <div class="most-popular-text">
+                <span>Most Popular</span>
+            </div>
+            <label for="unit2">
+                <input type="radio" id="unit2" name="unit" value="2">
+                <div class="label-content">
+                    <span>2 Unit</span>
+                    <span class="off">20% Off</span>
+                </div>
+                <span class="price">$18.00 USD</span>
+            </label>
+            <div class="price-content">
+                <span>Standard Price</span>
+                <span class="fade-price">$24.00 USD</span>
+            </div>
+            <div class="main-size-colour">
+                <span>Size</span>
+                <span>Colour</span>
+            </div>
+            <div class="size-colour">
+                <span>#1
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                </span>
+                <span>
+                    <select>
+                        <option>Blue</option>
+                        <option>Red</option>
+                    </select>
+                </span>
+            </div>
+            <div class="size-colour">
+                <span>#2
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                </span>
+                <span>
+                    <select>
+                        <option>Blue</option>
+                        <option>Red</option>
+                    </select>
+                </span>
+            </div>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="box" id="box3">
+            <label for="unit3">
+                <input type="radio" id="unit3" name="unit" value="3">
+                <div class="label-content">
+                    <span>3 Unit</span>
+                    <span class="off">30% Off</span>
+                </div>
+                <span class="price">$24.00 USD</span>
+            </label>
+            <div class="price-content">
+                <span>Standard Price</span>
+                <span class="fade-price">$24.00 USD</span>
+            </div>
+            <div class="main-size-colour">
+                <span>Size</span>
+                <span>Colour</span>
+            </div>
+            <div class="size-colour">
+                <span>#1
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                </span>
+                <span>
+                    <select>
+                        <option>Blue</option>
+                        <option>Red</option>
+                    </select>
+                </span>
+            </div>
+            <div class="size-colour">
+                <span>#1
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                </span>
+                <span>
+                    <select>
+                        <option>Blue</option>
+                        <option>Red</option>
+                    </select>
+                </span>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="delivery">
+            <span>Free Delivery</span>
+            <span class="total-amount">Total: $18.00 USD</span>
+        </div>
+        <div class="container">
+            <button class="add-to-cart">
+                <i class="fas fa-plus"></i> Add to Cart
+            </button>
+        </div>
+        <div class="pumper-text">@Powered by Pumper</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
